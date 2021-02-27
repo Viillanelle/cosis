@@ -1,0 +1,91 @@
+.nadsfhov:hover { opacity: 0.9; }
+
+#nadsf .nadsf1 .nadsfhov hs {
+  background-color: #674966;
+  color: #000000;
+  padding: 0px 3px;
+}
+.nadsfhov {
+  background-color: #090909;
+  width: 270px;
+  height: 170px;
+  opacity: 0;
+  color: #674966;
+  font: 800 11px 'Abril Fatface', cursive;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  -webkit-transition: all 0.9s;
+  transition: all 0.9s;
+  display: flex;
+    flex-direction: column;
+  	flex-wrap: nowrap;
+  	justify-content: center;
+  	align-items: center;
+  	align-content: center;
+}
+
+#nadsf { margin: 30px; }
+
+.nadsf1 {
+  
+  border: none;
+  width: 270px;
+  height: 170px;
+  position: relative;
+}
+
+.nadsf1:before,
+.nadsf1:after {
+  border-style: solid;
+  border-width: 0;
+  content: "";
+  height: 80px;
+  position: absolute;
+  width: 100px;
+    -webkit-transition: all 0.9s;
+  transition: all 0.9s;
+}
+
+.nadsf1:before {
+  border-color: #674966;
+  border-right-width: 1px;
+  border-top-width: 1px;
+  right: -5px;
+  top: -5px;
+}
+.nadsf1:after {
+  border-bottom-width: 1px;
+  border-color: #674966;
+  border-left-width: 1px;
+  bottom: -5px;
+  left: -5px;
+  z-index: -1;
+}
+
+.nadsf1:hover:before,
+.nadsf1:hover:after {
+  border-style: solid;
+  border-width: 0;
+  content: "";
+  height: 179px;
+  position: absolute;
+  width: 278px;
+  -webkit-transition: all 0.9s;
+  transition: all 0.9s;
+}
+
+.nadsf1:hover:before {
+  border-color: #674966;
+  border-right-width: 1px;
+  border-top-width: 1px;
+  right: -5px;
+  top: -5px;
+}
+.nadsf1:hover:after {
+  border-bottom-width: 1px;
+  border-color: #674966;
+  border-left-width: 1px;
+  bottom: -5px;
+  left: -5px;
+  z-index: -1;
+}
